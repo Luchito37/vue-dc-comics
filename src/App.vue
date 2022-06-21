@@ -1,6 +1,9 @@
 <template>
   <div>
       <TheHeader></TheHeader>
+      <BlackLine></BlackLine>
+      <BlueLine></BlueLine>
+      <BgLink></BgLink>
       <TheFooter></TheFooter>
   </div>
 </template>
@@ -8,13 +11,19 @@
 <script>
 import TheHeader from './components/TheHeader.vue'
 import TheFooter from './components/TheFooter.vue'
+import BlackLine from './components/BlackLine.vue'
+import BlueLine from './components/BlueLine.vue'
+import BgLink from './components/BgLink.vue'
 
 
 export default {
   name: 'App',
   components: {
     TheHeader,
-    TheFooter
+    TheFooter,
+    BlackLine,
+    BlueLine,
+    BgLink
   }
 }
 </script>
