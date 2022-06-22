@@ -1,7 +1,7 @@
 <template>
   <div>
       <TheHeader></TheHeader>
-      <BlackLine></BlackLine>
+      <ProuctList></ProuctList>
       <BlueLine></BlueLine>
       <BgLink></BgLink>
       <TheFooter></TheFooter>
@@ -11,7 +11,7 @@
 <script>
 import TheHeader from './components/TheHeader.vue'
 import TheFooter from './components/TheFooter.vue'
-import BlackLine from './components/BlackLine.vue'
+import ProuctList from './components/ProductList.vue'
 import BlueLine from './components/BlueLine.vue'
 import BgLink from './components/BgLink.vue'
 
@@ -21,7 +21,7 @@ export default {
   components: {
     TheHeader,
     TheFooter,
-    BlackLine,
+    ProuctList,
     BlueLine,
     BgLink
   }
@@ -30,7 +30,7 @@ export default {
 
 <style lang="scss">
 
-@import "assets/main.scss";
+@import "./assets/main.scss";
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
