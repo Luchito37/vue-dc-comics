@@ -5,11 +5,11 @@
                 <nav class="navbar">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">
-                            <img src="../assets/img/dc-logo.png" alt="" width="100" height="100" class="d-inline-block align-text-top">
+                            <img src="../assets/img/dc-logo.png" alt="" width="70" height="70" class="d-inline-block align-text-top">
                         </a>
                         <div>
                             <ul class="nav navSize">
-                                <li class="nav-item " v-for="link in navLinks" :key="link">
+                                <li v-for="link in navLinks" :key="link">
                                     <a class="nav-link myLink" :href="link.href">{{link.name}}</a>
                                 </li>
                             </ul>

@@ -2,20 +2,12 @@
     <div class="jumboDC overflow-hidden">
         <div class="container">
             <div class="row">
-                <div class="col-5 d-flex flex-raw my-5 text-white">
+                <div class="col-6 d-flex flex-raw my-5 text-white flex-wrap">
                         <div class="px-4">
                             <h3>DC COMICS</h3>
                             <ul class="list-unstyled navSize">
                                 <li class=" " v-for="comics in dcComicsLink" :key="comics">
                                     <a class="nav-link text-secondary" href="#">{{comics}}</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="px-4">
-                            <h3>SHOP</h3>
-                            <ul class="list-unstyled navSize">
-                                <li class="nav-item " v-for="shop in shopLinks" :key="shop">
-                                    <a class="nav-link text-secondary" href="#">{{shop}}</a>
                                 </li>
                             </ul>
                         </div>
@@ -35,8 +27,16 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="px-4">
+                            <h3>SHOP</h3>
+                            <ul class="list-unstyled navSize">
+                                <li class="nav-item " v-for="shop in shopLinks" :key="shop">
+                                    <a class="nav-link text-secondary" href="#">{{shop}}</a>
+                                </li>
+                            </ul>
+                        </div>
                 </div>
-                <div class="col-3"></div>
+                <div class="col-1"></div>
                 <div class="col overflow-hidden">
                     <div class="logoDC">
                         <img class="logoDC overflow-auto" src="../assets/img/dc-logo-bg.png" alt="">
@@ -102,7 +102,10 @@ export default{
 <style scoped>
 
 .jumboDC{
-    background-image: url(../assets/img/footer-bg.jpg);
+    background-image: url(http://localhost:8080/img/footer-bg.1b706117.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 .logoDC{
     width: 500px;

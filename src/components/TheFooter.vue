@@ -12,9 +12,9 @@
         <div class="col d-flex justify-content-end align-items-center">
             <h5 class="text-primary p-2">FOLLOW US</h5>
             <ul class="list-unstyled navSize d-flex">
-                <li v-for="footericon in footerLinks" :key="footericon">
-                    <a class="nav-link text-black " href="#">
-                        <img :src="require('../assets/img/footer-facebook.png')" alt="" width="40" height="40" class="d-inline-block align-text-top p-1">
+                <li v-for="footericon in footerLinks" :key="footericon.img">
+                    <a class="nav-link text-black p-2" href="#">
+                        <img :src="footericon.img" alt="" width="40" height="40" class="d-inline-block align-text-top p-1">
                     </a>
                 </li>
             </ul>
@@ -32,19 +32,19 @@ export default{
         return {
             footerLinks: [
                 {
-                    img: "../assets/img/footer-facebook.png",
+                    img: "img/footer-facebook.png",
                 },
                 {
-                    img: "../assets/img/footer-periscope.png",
+                    img: "img/footer-periscope.png",
                 },
                 {
-                    img: "../assets/img/footer-pintarest.png",
+                    img: "img/footer-pinterest.png",
                 },
                 {
-                    img: "../assets/img/footer-twitter.png",
+                    img: "img/footer-twitter.png",
                 },
                 {
-                    img: "../assets/img/footer-youtube.png",
+                    img: "img/footer-youtube.png",
                 },
 
             ]
