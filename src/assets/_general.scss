@@ -1,0 +1,15 @@
+.myLink{
+    color: black;
+
+    &:hover{
+        border-bottom: solid 3px rgb(38, 91, 237);
+        color: rgb(38, 91, 237);
+    }
+}
+
+.myBottom{
+    &:hover{
+        background-color: rgb(38, 91, 237);
+        color: white;
+    }
+}

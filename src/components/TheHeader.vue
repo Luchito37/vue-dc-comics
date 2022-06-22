@@ -10,7 +10,7 @@
                         <div>
                             <ul class="nav navSize">
                                 <li class="nav-item " v-for="link in navLinks" :key="link">
-                                    <a class="nav-link text-black " :href="link.href">{{link.name}}</a>
+                                    <a class="nav-link myLink" :href="link.href">{{link.name}}</a>
                                 </li>
                             </ul>
                         </div>
@@ -76,7 +76,9 @@ export default{
 </script>
 
 
-<style scoped>
+<style lang="scss" scoped>
+
+@import "../assets/general";
 
 .navSize{
     font-size: 12px;

@@ -5,7 +5,7 @@
         <div class="col">
             <nav class="navbar">
                 <form class="container-fluid justify-content-start">
-                    <button class="btn btn-outline-primary me-2 text-white" type="button">Sign-Up NOW!</button>
+                    <button class="btn btn-outline-primary me-2 text-white myBottom" type="button">Sign-Up NOW!</button>
                 </form>
             </nav>
         </div>
@@ -54,6 +54,8 @@ export default{
 </script>
 
 
-<style scoped>
+<style lang="scss" scoped>
+
+@import "../assets/general";
 
 </style>
