@@ -1,6 +1,7 @@
 <template>
   <div>
       <TheHeader></TheHeader>
+      <JumboHeader></JumboHeader>
       <ProuctList></ProuctList>
       <BlueLine></BlueLine>
       <BgLink></BgLink>
@@ -10,6 +11,7 @@
 
 <script>
 import TheHeader from './components/TheHeader.vue'
+import JumboHeader from './components/JumboHeader.vue'
 import TheFooter from './components/TheFooter.vue'
 import ProuctList from './components/ProductList.vue'
 import BlueLine from './components/BlueLine.vue'
@@ -23,7 +25,8 @@ export default {
     TheFooter,
     ProuctList,
     BlueLine,
-    BgLink
+    BgLink,
+    JumboHeader
   }
 }
 </script>
